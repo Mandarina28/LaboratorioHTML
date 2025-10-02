@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tu tienda de moda</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body class="grid-container">
+        <!-- NAV -->
+        <nav id="nav-total">
+            <input type="checkbox" id="menu-toggle" />
+            <div id="burguer">
+                <!-- Menú hamburguesa-->
+                <label for="menu-toggle" id="icon-menu-burguer"> 
+                    <img src="/Icons/icon-menu-burguer.svg" alt ="icon-menu-burguer" >
+                </label>
+            </div>
+            <!--Opciones de navegacion-->
+            <ul class="nav-links">
+                <li><a href="#"></a>MODA MUJER</li>
+                <li><a href="#"></a>MODA HOMBRE</li>
+                <li><a href="#" class="active"></a> NUEVA COLECCIÓN</li>
+                <li><a href="#"></a>COLECCIONES ESPECIALES</li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="#"><img src="/icons/icon-user.svg" alt="Perfil"></a>
+                <a href="#"><img src="/icons/icon-heart.svg" alt="Favoritos"></a>
+                <a href="#"><img src="/icons/icon-shopping-cart.svg"></a>
+            </div>
+        </nav>
+
+        <!-- MAIN (contenido principal)-->
+        <main>
+            <section id="seccion-primary">
+
+                <h1> NUEVAS COLECCIONES</h1>
+
+                <div id="galery">
+                    <article>
+                        <img class="card-img" src="/img/image-3.jpg" alt="Vestido corto azulado">
+                        <div class="description-card">
+                            <h2 class="card-name"> Vestido </h2>
+                            <p class="card-price"> 34.99 €</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img class="card-img" src="/img/image-6.jpg" alt="Camisa amarilla">
+                        <div class="description-card">
+                            <h2 class="card-name"> Camisa </h2>
+                            <p class="card-price"> 44.99€</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img class="card-img" src="/img/image-4.jpg" alt="Vaqueros blancos">
+                        <div class="description-card">
+                            <h2 class="card-name"> Vaqueros</h2>
+                            <p class="card-price">79.99€</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img class="card-img" src="/img/image-5.jpg" alt="Polo color topo">
+                        <div class="description-card">
+                            <h2 class="card-name"> Polo</h2>
+                            <p class="card-price">44.95€ </p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img class="card-img" src="/img/image-1.jpg" alt="Camisa blanca">
+                        <div class="description-card">
+                            <h2 class="card-name"> Camisa </h2>
+                            <p class="card-price"> 25.00€</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img class="card-img" src="/img/image-2.jpg" alt="Camiseta blanca">
+                        <div class="description-card">
+                            <h2 class="card-name"> Camiseta </h2>
+                            <p class="card-price"> 22.99€</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER (Pie de la página)-->
+         <footer>
+            <div class="footer-item">
+                <div class="icon-circle">
+                    <img src="/icons/icon-truck.svg" alt="Icono entregas">
+                </div>
+                <p> Entregas</p>
+            </div>
+            <div class="footer-item" >
+                <p> Devoluciones y cambios</p>
+            </div>
+            
+            <div class="footer-item">
+                <div class="icon-circle">
+                    <img src="/icons/icon-phone.svg" alt="Icono telefono">
+                </div>
+                <p> +375 (29) 749-18-23 </p>
+            </div>
+            <div class="footer-item">
+                <div class="icon-circle">
+                    <img src="/icons/icon-mail.svg" alt="Icono email">
+                </div>
+                <p> shop@omix.com </p>
+            </div>
+         </footer>
+    </body>
+</html>
