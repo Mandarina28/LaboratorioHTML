@@ -34,7 +34,15 @@ body {
     flex-wrap: nowrap;
     border-bottom: 1px solid #212429;
     padding: 32px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--color-primary);
 }
+
+
 #menu-toggle {
     display: none;
 }
@@ -59,6 +67,7 @@ body {
 
 main {
     grid-area: main;
+    margin-top: 120px;
 }
 
 #seccion-primary {
