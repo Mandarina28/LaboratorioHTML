@@ -6,6 +6,15 @@
     --color-secondary: #212429;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
