@@ -14,6 +14,9 @@ La estructura se ha diseñado utilizando **Flexbox** y **Grid**, asegurando una 
 - **HTML5**  
 - **CSS3**
 
+[Página de la tienda](https://mandarina28.github.io/LaboratorioHTML/)
+
+
 ---
 
 ✨ *Proyecto realizado como práctica para aprender posicionamiento y diseño responsive
