@@ -2,7 +2,7 @@
 
 ## 🧭 Descripción
 Este proyecto consiste en la creación de una **barra de navegación fija y adaptable** desarrollada con **HTML y CSS**.  
-La estructura se ha diseñado utilizando **Flexbox**, asegurando una distribución equilibrada de los elementos y una correcta visualización en distintos dispositivos.
+La estructura se ha diseñado utilizando **Flexbox** y **Grid**, asegurando una distribución equilibrada de los elementos y una correcta visualización en distintos dispositivos.
 
 ## ⚙️ Características principales
 - Barra de navegación **fija al hacer scroll**.  
